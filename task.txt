@@ -1,0 +1,16 @@
+RESR API - JSON
+
+GET  /users  - get the list of all user -done
+
+GET  /api/users/1  - get the user with id 1
+GET  /api/users/2 - get the uesr with id 2 
+
+Dynamice path Parameters
+GET /api/users/:id
+:id -> variable  | Dynamic
+
+POST /api/users - create new user
+
+PATCH /api/users/1  - Edit the user with id 1
+
+DELETE  /api/users/1  - delete user with id 1
